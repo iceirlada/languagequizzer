@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">   
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js">
+        </script>
+        <title>Language Quizzer</title>
+    </head>
+
+  <body>
+    <header>
+        <h1>Language Quizzer</h1>
+    </header>
+    <div id='main'>
+
+        <span id="goodluck"></span>
+        <span id="havefun"></span>
+
+        <div id="input">
+            <h2>Quizzer Maker</h2>
+         <div id="inputdisplayDiv"></div>
+            <span id="wordlang"></span> Word:<br>
+            <textarea id="word" rows="2" cols="16"></textarea><br>
+            Meaning in English:<br>
+            <textarea id="meaning" rows="2" cols="16"></textarea><br>
+            <button type="button" id="submit">submit word</button><br>
+            <button type="button" id="done">I'm done. Let's get to quizzin'!</button>
+        </div>
+
+        <div id="quizzer">
+            <h2>Let's Start!</h2>
+            How do you say:<br>
+         <div id="testdisplayDiv"></div>
+            in <span id="language"></span>?<br><br>
+
+            Answer (<span id="wordNum"></span>/<span id="totalWords"></span>): <span id="result"></span><br>
+            <textarea id="answer" rows="2" cols="16"></textarea><br>
+            <button type="button" id="ansButton">submit answer</button> Score: <span id="scoreDisplay"></span><br>
+            <button type="button" id="nextButton">next word</button><br>
+            <button type="button" id="newQuiz">make new quiz</button>
+
+        </div>
+
+    </div>
+    <footer>
+        Developed by: Irlada Seow
+    </footer>
+  </body>
+
+</html>
+

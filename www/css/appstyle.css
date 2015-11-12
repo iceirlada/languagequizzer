@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Patua+One);
+
+html, body {  /* Select and size the outermost elements so other elements can be set in % */
+	height:100%;
+	width:99%;
+}
+
+body {
+    font-family: "Droid Sans", "Arial", sans-serif;
+    font-size: 16px;
+    color: rgb(234,234,234);
+    font-weight: 400;
+    background-color: black;
+  }
+
+  #main {  /* select element with id="main" */ 
+    width: 720px;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: rgb(234,234,234);
+    border-top: solid 10px;
+    border-bottom: solid 10px;
+    border-color: #33CCCC;
+   }
+
+#main > #input,#quizzer {
+   text-align: center;
+   margin: 15px;
+   padding: 10px;
+   border: 1px solid #33CCCC;
+   border-radius: 7pt;
+   background: #00004D;
+   width: 42%;
+   }
+
+   #inputdisplayDiv, #testdisplayDiv {
+    font-family: "Droid Sans", "Arial", sans-serif;
+    font-size: 16px;
+    color: #33CCCC;
+    margin: 15px auto;
+    padding: 10px;
+    border: 1px solid #33CCCC;
+    border-radius: 7pt;
+    background: #00004D;
+    width: 80%;
+    height: auto;
+   }
+
+#main > #input {
+  float:left;
+}
+
+#main > #quizzer {
+  float:right;
+}
+
+   textarea {
+    font-family: "Droid Sans", "Arial", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+    max-width: 290px;
+
+   }
+
+#svgcanvas {
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;  
+    border-color: blue;
+    height: 300px;
+    width: 400px;
+}
+ 
+  header, footer {  /* select all header and footer elements */
+   display: block;
+   font-size: 10pt;
+   margin: 10px;
+   padding: 5px;
+   min-height: 10%;
+   text-align: center;
+   }
+
+   h1, h2 {
+    color: #33CCCC;
+    text-align: center;
+    margin: 10px;
+    font-family: "Patua One", "Arial", sans-serif;
+   }
+  
+};
+

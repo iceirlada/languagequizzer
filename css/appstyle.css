@@ -44,6 +44,8 @@ body {
     background: #00004D;
     width: 80%;
     height: auto;
+    max-height: 100px;
+    overflow: scroll;
    }
 
 #main > #input {
@@ -81,11 +83,18 @@ body {
    text-align: center;
    }
 
-   h1, h2 {
-    color: #33CCCC;
+   h1, h2, h3 {
     text-align: center;
     margin: 10px;
     font-family: "Patua One", "Arial", sans-serif;
+   }
+
+   h1, h2 {
+    color: #33CCCC;
+   }
+
+   h3 {
+    color: black;  
    }
   
 };

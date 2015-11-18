@@ -64,15 +64,6 @@ body {
     max-width: 290px;
 
    }
-
-#svgcanvas {
-    margin: auto;
-    border-style: solid;
-    border-width: 1px;  
-    border-color: blue;
-    height: 300px;
-    width: 400px;
-}
  
   header, footer {  /* select all header and footer elements */
    display: block;
